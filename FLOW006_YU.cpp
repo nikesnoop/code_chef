@@ -4,10 +4,11 @@ using namespace std;
 int main() {
 	int t, a;
 	cin>>t;
-	int s[t] = {0,0,0};
+	int s[t];
 	
 	for(int i=0; i<t; ++i)
 	{
+	    s[i] = 0;
 	    cin>>a;
 	    while(a>0)
 	    {
