@@ -5,14 +5,14 @@ int main()
 {
 	int t, n, s=0;
 	cin>>t;
-	int a[100000] = {0};
+	int a[1000001] = {0};
 	
 	while(t--)
 	{
 	    cin>>n;
 	    a[n] ++;
 	}
-	for(int i=0; i<100000; ++i)
+	for(int i=0; i<1000001; ++i)
 	{
 	    while(a[i] > 0)
 	    {
